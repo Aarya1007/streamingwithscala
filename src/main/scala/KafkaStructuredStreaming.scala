@@ -53,7 +53,8 @@ object KafkaStructuredStreaming {
    // transformedDF.printSchema()
 
     val outputdf = transformedDF.selectExpr("current_timestamp() as load_time","window.start as start","window.end as end","Total")
-    outputdf.printSchema()
+    //outputdf.printSchema()
+    //outputdf.explain(true)
     // 4. Print incoming messages to console
     val query = outputdf.writeStream
       .outputMode("update")
