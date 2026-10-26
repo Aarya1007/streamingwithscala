@@ -2,6 +2,6 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="separateProdTestSources" value="true" />
-    <profile name="sbt 1" modules="streamingwith scala,streamingwith scala.main,streamingwith scala.test" />
+    <profile name="sbt 1" modules="streamingwith scala,streamingwith scala.main,streamingwith scala.test,streamingwithscala,streamingwithscala.main,streamingwithscala.test" />
   </component>
 </project>
