@@ -1,1 +1,1 @@
-D:\kafka\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic invoices --from-beginning
+D:\kafka\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic payment2 --from-beginning
